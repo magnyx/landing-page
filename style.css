@@ -1,0 +1,50 @@
+body {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.top-container {
+    background-color: #1F2937;
+    color: #F9FAF8; 
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: column;
+    padding: 25px;
+    gap: 35px;
+
+}
+
+.header {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight:900;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.header-right {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    gap: 15px;
+}
+
+.bellow-header {
+    display: flex;
+}
+
+.img-placeholder {
+    width: 500px;
+    height: 250px;
+    background-color: grey;
+}
