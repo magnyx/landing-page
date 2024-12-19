@@ -16,7 +16,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 25px 8rem 45px 8rem;
     gap: 35px;
     max-width: 950px;
     justify-content: stretch;
@@ -48,6 +48,7 @@ body {
 
 .bellow-header {
     display: flex;
+    gap: 50px;
 }
 
 #sign-up-button {
@@ -61,7 +62,9 @@ body {
 }
 
 .img-placeholder {
-    width: 500px;
-    height: 250px;
+    width: 800px;
+    height: 210px;
     background-color: grey;
+    align-content: center;
+    text-align: center;
 }
