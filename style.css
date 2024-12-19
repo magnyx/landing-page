@@ -1,3 +1,5 @@
+/* Page */
+
 body {
     font-family: roboto, Arial, Helvetica, sans-serif;
     margin: 0;
@@ -9,12 +11,15 @@ body {
 .top-container {
     background-color: #1F2937;
     color: #F9FAF8; 
+}
+
+.container {
     display: flex;
-    flex-basis: 80%;
     flex-direction: column;
     padding: 25px;
     gap: 35px;
-
+    max-width: 950px;
+    justify-content: stretch;
 }
 
 .header {
@@ -23,6 +28,8 @@ body {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    gap: auto;
 }
 
 .logo {
