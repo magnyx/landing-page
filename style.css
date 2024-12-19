@@ -50,6 +50,16 @@ body {
     display: flex;
 }
 
+#sign-up-button {
+    padding: 9px 30px 9px 30px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+}
+
 .img-placeholder {
     width: 500px;
     height: 250px;
