@@ -51,7 +51,7 @@ body {
     gap: 50px;
 }
 
-#sign-up-button {
+.sign-up-button {
     padding: 9px 30px 9px 30px;
     border-radius: 6px;
     border-style: none;
@@ -67,6 +67,28 @@ body {
     background-color: grey;
     align-content: center;
     text-align: center;
+}
+
+/* Sign up and call to action */
+
+.sign-up {
+    background-color: #3882F6;
+    padding: 33px 53px 33px 53px;
+    margin: 50px;
+    align-self: center;
+    border-radius: 15px;
+    color: #F9FAF8;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 800px;
+}
+
+.white-border {
+    border: #F9FAF8 solid 2px;
+    flex: 0 0 auto;
+    max-height: 50px;
+    margin: auto;
 }
 
 /* Footer */
