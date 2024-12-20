@@ -69,6 +69,38 @@ body {
     text-align: center;
 }
 
+/* Rounded cubes section */
+
+.random-info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+#square-containers-row {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.square-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.square-box {
+    width: 150px;
+    height: 150px;
+    border: #3882F6 solid 4px;
+    border-radius: 12px;
+}
+
+.text {
+    color: rgb(105, 105, 105);
+}
+
 /* Sign up and call to action */
 
 .sign-up {
