@@ -101,6 +101,24 @@ body {
     color: rgb(105, 105, 105);
 }
 
+/* Quote Section */
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+q {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+cite{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
 /* Sign up and call to action */
 
 .sign-up {
