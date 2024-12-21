@@ -95,6 +95,11 @@ body {
 
 /* Rounded cubes section */
 
+.middle-container {
+    padding: 25px;
+    margin-bottom: 33px;
+}
+
 .random-info {
     font-size: 36px;
     color: #1F2937;
@@ -107,6 +112,8 @@ body {
     flex-direction: row;
     gap: 35px;
     justify-content: center;
+    align-items: center;
+    margin: auto;
     max-width: 155px;
 }
 
@@ -131,20 +138,35 @@ body {
 
 /* Quote Section */
 
-.quote-container {
+.quote-container-background {
     background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    max-width: 900px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin: auto;
 }
 
 q {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
 }
 
 cite{
-    font-size: 36px;
+    font-size: 28px;
     color: #1F2937;
     font-weight: 800;
+    font-style: normal;
+    text-align: right;
 }
 
 /* Sign up and call to action */
