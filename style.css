@@ -23,9 +23,9 @@ body {
     width: 100%;
     display: flex;  
     flex-direction: column;
-    padding: 8rem 8rem 8rem 8rem;
+    padding: 100px;
+    margin: auto;
     gap: 35px;
-    margin: 0;
     max-width: 950px;
     justify-content: center;
     align-items: center;
@@ -36,9 +36,11 @@ body {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 100%;
     justify-content: space-between;
     align-items: center;
-    gap: auto;
+    margin: 0;
 }
 
 .logo {
@@ -83,7 +85,7 @@ body {
 .random-info {
     font-size: 36px;
     color: #1F2937;
-    font-weight: 900;
+    font-weight: 950;
     text-align: center;
 }
 
@@ -92,23 +94,26 @@ body {
     flex-direction: row;
     gap: 35px;
     justify-content: center;
+    max-width: 155px;
 }
 
 .square-container {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0;
 }
 
 .square-box {
-    width: 150px;
-    height: 150px;
+    width: 155px;
+    height: 155px;
     border: #3882F6 solid 4px;
     border-radius: 12px;
 }
 
 .text {
     color: rgb(105, 105, 105);
+    text-align: center;
+    font-size: 18px;
 }
 
 /* Quote Section */
