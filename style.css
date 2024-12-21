@@ -20,15 +20,14 @@ body {
 }
 
 .container {
-    width: 100%;
     display: flex;  
     flex-direction: column;
-    padding: 100px;
+    padding: 0 2rem 100px 2rem;
     margin: auto;
-    gap: 35px;
     max-width: 950px;
-    justify-content: center;
-    align-items: center;
+    justify-content: stretch;
+    align-items: stretch;
+    gap:100px;
 }
 
 .header {
@@ -40,17 +39,19 @@ body {
     flex-basis: 100%;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
+    margin: 18px 0 18px 0;
 }
 
 .logo {
-    font-weight:900;
+    font-weight:1000;
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
 }
 
 .header-right {
+    font-size: 17px;
+    color: #E5E7EB;
     display: flex;
     flex-wrap: nowrap;
     margin-left: auto;
@@ -62,22 +63,34 @@ body {
     gap: 50px;
 }
 
+.bellow-header-right>h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+.bellow-header-right>p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .sign-up-button {
-    padding: 9px 30px 9px 30px;
-    border-radius: 6px;
+    padding: 10px 33px 10px 33px;
+    border-radius: 8px;
     border-style: none;
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 17px;
+    font-weight: 1000;
 }
 
 .img-placeholder {
-    width: 800px;
-    height: 210px;
-    background-color: grey;
+    width: 1000px;
+    height: 240px;
+    background-color: #787d83a6;
     align-content: center;
     text-align: center;
+    font-size: large;
 }
 
 /* Rounded cubes section */
