@@ -4,6 +4,12 @@ body {
     font-family: roboto, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 /* Header */
@@ -14,12 +20,15 @@ body {
 }
 
 .container {
-    display: flex;
+    width: 100%;
+    display: flex;  
     flex-direction: column;
-    padding: 25px 8rem 45px 8rem;
+    padding: 8rem 8rem 8rem 8rem;
     gap: 35px;
+    margin: 0;
     max-width: 950px;
-    justify-content: stretch;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -82,6 +91,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 35px;
+    justify-content: center;
 }
 
 .square-container {
@@ -123,7 +133,7 @@ cite{
 
 .sign-up {
     background-color: #3882F6;
-    padding: 33px 53px 33px 53px;
+    padding: 33px 73px 33px 73px;
     margin: 50px;
     align-self: center;
     border-radius: 15px;
@@ -131,7 +141,8 @@ cite{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    max-width: 800px;
+    gap: 120px;
+    max-width: 1200px;
 }
 
 .white-border {
